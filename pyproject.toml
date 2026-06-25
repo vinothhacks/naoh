@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 # stays `book_to_skill` and the CLI command stays `book-to-skill`.
 [project]
 name = "naoh"
-version = "0.1.0"
+version = "0.1.1"
 description = "naoh / book-to-skill: turn a PDF/MD/DOCX book into a Claude Code skill. Skill mode (no API) + provider-agnostic API mode."
 readme = "README.md"
 license = { text = "MIT" }

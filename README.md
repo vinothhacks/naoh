@@ -8,10 +8,6 @@ Turn a technical **book or document** (`.pdf`, `.md`/`.markdown`, `.docx`) into 
 [Claude Code skill](https://code.claude.com/docs/en/skills): a front-loaded `SKILL.md`
 plus on-demand chapter summaries, a glossary, a patterns file, and a cheatsheet.
 
-`naoh` is an enhanced reimplementation of the public reference
-[`virgiliojr94/book-to-skill`](https://github.com/virgiliojr94/book-to-skill). The package
-and CLI keep the name `book-to-skill`; the project/brand is **naoh**.
-
 ## Two modes, one core
 
 Extraction + structure detection are shared. What differs is who writes the summaries:
