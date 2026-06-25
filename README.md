@@ -47,7 +47,16 @@ non-zero (it never fails silently).
 ## Install
 
 ```bash
-pip install -e ".[dev]"     # from a clone, with dev/test extras
+pip install naoh            # from PyPI
+```
+
+The PyPI distribution is **`naoh`**; it installs the `book_to_skill` import package and the
+`book-to-skill` CLI command.
+
+From a clone (for development):
+
+```bash
+pip install -e ".[dev]"     # with dev/test extras
 # or, for runtime only:
 pip install -e .
 ```

@@ -2,10 +2,12 @@
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+# Distribution name is "naoh" (the PyPI project + GitHub repo). The import package
+# stays `book_to_skill` and the CLI command stays `book-to-skill`.
 [project]
-name = "book-to-skill"
+name = "naoh"
 version = "0.1.0"
-description = "Turn a technical book or document (PDF/MD/DOCX) into a Claude Code skill. Skill mode (no API) + provider-agnostic API mode."
+description = "naoh / book-to-skill: turn a PDF/MD/DOCX book into a Claude Code skill. Skill mode (no API) + provider-agnostic API mode."
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.11"
